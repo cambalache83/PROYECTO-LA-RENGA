@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {  
+    background:black;
+background-position: cover;
+margin: auto
+}
+h1 {
+    font-size: 100PX;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    padding:5px
+    }    
+ul li a{
+    font-weight: bold;
+    font-family: 'Pirata One', cursive;
+}
+nav li {
+    display: inline-block;
+    margin: auto;
+}
+nav li a:hover{
+    background-color:black;
+    color: rgba(255, 255, 255, 0.632);
+}
+nav li a{
+    padding: 20px 20px;
+    display: inline-block;
+    color:black;
+}
+footer {clear: both;
+    padding: 20px
+}
+.imagenes {
+    width: 45%;
+    display: block;
+    margin: auto;
+    border: 4px dotted grey;
+    position: relative;
+    border-radius: 100px;
+    position: relative;
+    right: 350px;
+    top: 25px
+}
+.imagenesone {
+    width: 38%;
+    display: block;
+    margin: auto;
+    border: 4px dotted grey;
+    border-radius: 100px;
+    position: absolute;
+    left: 720px;
+    top: 3905px;
+}
+.imagenestwo{
+    width: 87%;
+    display: block;
+    margin: auto;
+    border-color: yellow;
+    border: 10px;
+    position: relative;
+    right: 45px;
+    top:40px;
+    border: 4px dotted grey;
+    border-radius: 1000px;
+}
+iframe {
+    width: 500%;
+    height: 50rem; 
+}
+nav{
+    width:100%;
+    background: red;
+    list-style:none;
+    margin:0;
+    font-family: 'Pirata One', cursive;
+    font-size: 25px;
+    text-align: center
+}
+#logo{
+    width: 1400px; 
+    height: 700px; 
+    padding: 0px;
+}
+#derechos{
+    font-size: 15px;
+    font-style: italic;
+    color: red;
+    display: inline-block;
+}
+.portada {
+    width:800px;
+}
+.musica {
+    height:600px;
+    width: 400px;
+    float: none;
+    padding: 50px 10px 10px 10px;
+}
+#discografia {
+    font-family: 'Pirata One', cursive;
+    font-size: 25px;
+    text-align: center;
+    background:url(image/estrella.png);
+    background-size:80%;
+    padding: 20px 10px 40px 10px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.titulos {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Pirata One', cursive;
+}
+.somoslosmismosdesiempre {
+    width: 100%;
+   
+}
+.subir{
+    padding: 0px 700px 0px 700px;
+    color: antiquewhite;
+    font-family: 'Pirata One', cursive;
+    font-size: 15px;
+}/*
+.formulario
+{
+color: red;
+}
+.formulariocompleto {
+   float: right;
+   background-color: 255.255.255..4;
+   padding: 10px;
+}*/
+.contendorderecho {
+    /*float: right;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255,.4);
+    color:#fff;
+    padding: 30px;
+    border: 30px;
+    border-radius: 30px;
+    margin: auto;*/
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width: 300px;
+   margin: 0 auto;
+   text-align:left;
+   background-color: rgba(255, 255, 255,.4);
+   color:#fff;
+   border: 30px;
+   border-radius: 30px;
+}
+.imput
+{
+    width: 280px;
+    padding: 9px;
+}
+
+.botones {
+    text-align: center;
+}
+
+.boton {
+    background-color:blue;
+    padding:0px;
+    display: inline-block;
+    width: 40%;
+    color:yellow;
+    border: 0px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.redessociales
+ {
+     padding: 10px
+ }
+#larengaenestudio {
+    width: 95%;
+    border: 3px dashed grey;
+    margin: auto;
+    margin-left: 35px
+}
+#noticias {
+    background:url(image/aguila.jpg);
+    background-size:80%;
+    padding: 20px 10px 40px 10px;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.noticiasreales{
+    background: (255, 255, 255,);
+    width: 300px;
+    height: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 550px;
+    margin-right: 500px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: brown;
+
+
+}
+.comunicado {
+    width: 50%;
+
+}
+
+
+
+
